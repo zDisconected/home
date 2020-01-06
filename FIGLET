@@ -1,0 +1,218 @@
+#!bin/bash
+
+#ELEGIDOS HACKERS
+#ESTA FACINANTE HERAMIENTA
+#A SIDO CREADA Y CODIFICADA 
+#POR VENOM24 23/04/2019
+
+#VARIABLES    
+              red='\033[1;31m'                                        green='\033[1;32m'
+              yellow='\033[1;33m'                                     blue='\033[1;34m'                                       magenta='\033[1;35m'                                    cyan='\033[1;36m'
+              reset='\033[0m'
+while :
+do
+clear
+
+printf $red
+
+echo "====================================="
+
+figlet -f bubble FIGLET.B
+
+echo "====================================="
+
+
+#Opciones
+echo -e "\e[0;34m[01]\033[1;36mFIGLET TYPE BANNER    \033[0;34m[11]\033[1;36mFIGLET TYPE SHADOW"
+echo -e "\e[0;34m[02]\033[1;36mFIGLET TYPE BIG       \033[0;34m[12]\033[1;36mFIGLET TYPE SLANT"
+echo -e "\e[0;34m[03]\033[1;36mFIGLET TYPE BLOCK     \033[0;34m[13]\033[1;36mFIGLET TYPE SMALL"
+echo -e "\e[0;34m[04]\033[1;36mFIGLET TYPE BUBBLE    \033[0;34m[14]\033[1;36mFIGLET TYPE SMSCRIPT" 
+echo -e "\e[0;34m[05]\033[1;36mFIGLET TYPE DIGITAL   \033[0;34m[15]\033[1;36mFIGLET TYPE SMSHADOW"
+echo -e "\e[0;34m[06]\033[1;36mFIGLET TYPE IVRIT     \033[0;34m[16]\033[1;36mFIGLET TYPE SMSLANT"
+echo -e "\e[0;34m[07]\033[1;36mFIGLET TYPE LEAN      \033[0;34m[17]\033[1;36mFIGLET TYPE STANDARD"
+echo -e "\e[0;34m[08]\033[1;36mFIGLET TYPE MINI      \033[0;34m[18]\033[1;36mFIGLET TYPE TERM"
+echo -e "\e[0;34m[09]\033[1;36mFIGLET TYPE MNMONIC   \033[0;34m[19]\033[1;36mINFORMATION FROM THE CREATOR"
+echo -e "\e[0;34m[10]\033[1;36mFIGLET TYPE SCRIPT    \033[0;34m[20]\033[1;36mEXIT SCRIPT."
+
+
+echo ""
+#Menu
+echo -e "\e[1;36m"
+echo -n "SELECT YOUR OPTION #>> ";
+
+read OPCION;
+
+#Opciones
+case $OPCION in
+1)echo ""
+
+echo -n "TU NOMBRE:";
+read NOMBRE;
+figlet -f banner $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+2)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f big $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+3)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f block $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+4)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f bubble $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+5)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f digital $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+6)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f ivrit $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+7)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f lean $NOMBRE
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+8)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f mini $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+9)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f mnemonic $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+10)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f script $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+11)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f shadow $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+12)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f slant $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+13)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f small $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+14)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f smscript $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+15)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f smshadow $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+16)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f smslant $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+17)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f standard $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+18)echo ""
+echo -n "TU NOMBRE: ";
+read NOMBRE;
+figlet -f term $NOMBRE | lolcat
+sleep 2
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+19)echo ""
+echo -e "\e[1;36m"
+sleep 2.5
+echo "ESTA HERRAMIENTA FUE CREADA POR VENOM24!"
+sleep 2.5
+echo "SIEMPRE LLEVA TU BANDERA BLANCA DEL BUEN HACER ETICO"
+sleep 2.5
+echo "CADA DIA NACE UN ELEGIDO PARA SER HACKER"
+sleep 2.5
+echo "TE INVITO A SUSCRIBIRTE A MI CANAL, SI AUN NO LO HAZ ECHO"
+sleep 2.5
+echo -e "\e[1;35m"
+echo " https://www.youtube.com/c/venom24_R"
+
+echo ""
+echo -e "\e[0;36mPRESS ENTER TO CONTINUE IN THE SYSTEM!!"
+read foo
+;;
+20)clear
+exit 20;;
+*)clear
+echo -e "\e[0;31m[!]\033[0;31mInvalid command..!!";
+sleep 2
+;;
+esac
+done
+

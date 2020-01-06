@@ -1,0 +1,63 @@
+#! /data/data/com.termux/files/usr/bin/bash
+#variables
+
+#CODIFICADO POR VENOM24 28/03/2019
+
+               red='\033[1;31m'                                        green='\033[1;32m'
+               yellow='\033[1;33m'                                     blue='\033[1;34m'                                       magenta='\033[1;35m'     
+	       cyan='\033[1;36m'
+               reset='\033[0m'
+#INSTALANDO REPOSITORIOS
+apt update && apt upgrade
+pkg install figlet
+pkg install vim
+pkg install util-linux
+pkg install ruby
+gem install lolcat
+figlet finalizado | lolcat
+sleep 2.5 
+clear
+sleep 1
+printf "$cyan"
+echo "====================================="
+
+figlet -f bubble venom24
+
+echo "====================================="
+printf $red
+echo "......................................."
+echo "            ADVERTENCIAS               "
+echo "......................................."
+sleep 1
+printf "
+$blue(1) $reset uselo bajo su propio riesgo
+$blue(2) $reset no hay garantia
+"
+sleep 1
+printf "$green
+................................................
+Estas segur@ de que quieres instalar este script?
+................................................"
+sleep 1
+
+printf "$green
+$reset
+press $cyan Enter$reset si estas de acuerdo instalar/continuar
+Press $green CTLC + C$reset si no estas de acuerdo/cancelas la instalacion"
+read ENTER
+echo "
+"
+
+cd --
+cd ../usr/etc
+ls
+rm -rf motd
+cd --
+mv $HOME/TERMUX_BANNER-v2.0/BANNER $PREFIX/etc/bash.bashrc
+cd --
+rm -rf TERMUX_BANNER-v2.0.zip
+clear
+echo "TU BANNER SE A CREADO CON EXITO" |lolcat
+exit
+
+

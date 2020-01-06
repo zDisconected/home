@@ -1,0 +1,5 @@
+#! bin/bash
+cd --
+cd ../usr/etc
+ls
+vim bash.bashrc
